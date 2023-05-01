@@ -2,10 +2,7 @@
   box-sizing: border-box;
 
 }
-.container{
-  width: 550px;
-  margin: auto;
-}
+
 body {
   margin: 0;
 }
@@ -15,14 +12,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 550px;
+  
   height: 91px;
   padding: 10px;
   
 }
 .p_nav{
   color: white;
-  font-family: iner;
+  font-family: Inter,sans-serif;
   font-weight: 600px;
   font-size: 16px;
 }
@@ -32,7 +29,7 @@ body {
   font-size: 22.25px;
   font-weight: 800px;
   font-family: inter;
- 
+
 }
 .pic{
   display: flex;
@@ -43,4 +40,11 @@ body {
 }
 img{
   height: 24.5px;
+}
+
+.main-color{
+  background: rgba(40, 45, 53, 1);
+  padding: 10px;
+  padding-bottom: 500px;
+  color: white;
 }
